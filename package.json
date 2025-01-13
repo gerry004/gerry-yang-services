@@ -1,6 +1,6 @@
 {
-  "homepage": "https://gerry004.github.io/gerry-yang-dev",
-  "name": "gerry-yang-dev",
+  "homepage": "https://gerry004.github.io/gerry-yang-services",
+  "name": "gerry-yang-services",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
