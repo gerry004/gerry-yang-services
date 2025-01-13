@@ -50,7 +50,7 @@ const Card = ({
       <div className="flex flex-wrap">
         {skills.map((skill) => (
           <p
-            className="bg-white border-solid border-secondary text-secondary border-2 rounded-md mt-2 mr-2 p-2 hover:bg-secondary hover:text-white"
+            className="bg-white border-solid border-secondary border-2 font-medium text-secondary rounded-md mt-2 mr-2 p-2 hover:bg-secondary hover:text-white"
             key={skills.indexOf(skill)}
           >
             {skill}
