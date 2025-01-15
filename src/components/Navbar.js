@@ -1,7 +1,7 @@
 import { useRef } from "react";
 
 function Navbar(props) {
-  const { projectsRef, experienceRef } = props;
+  const { projectsRef, servicesRef, aboutRef } = props;
   const navbar = useRef();
 
   const goTo = (ref) => {
@@ -26,13 +26,19 @@ function Navbar(props) {
       <div className="flex flex-row w-full justify-evenly items-center md:w-1/4 ml-auto text-white">
         <button
           className="hover:underline underline-offset-2 font-medium"
+          onClick={() => goTo(aboutRef)}
+        >
+          About
+        </button>
+        <button
+          className="hover:underline underline-offset-2 font-medium"
           onClick={() => goTo(projectsRef)}
         >
           Projects
         </button>
         <button
           className="hover:underline underline-offset-2 font-medium"
-          onClick={() => goTo(experienceRef)}
+          onClick={() => goTo(servicesRef)}
         >
           Services
         </button>
@@ -41,9 +47,7 @@ function Navbar(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button
-            className="bg-white text-primary font-bold py-3 px-5 rounded-lg hover:bg-opacity-80"
-          >
+          <button className="bg-white text-primary font-bold py-3 px-5 rounded-lg hover:bg-opacity-80">
             Let's Chat!
           </button>
         </a>

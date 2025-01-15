@@ -1,4 +1,4 @@
-const EXPERIENCES = [
+const POWERED_BY = [
   {
     title: "Noloco - Software Engineer",
     link: "https://www.noloco.io/",
@@ -57,21 +57,7 @@ const EXPERIENCES = [
       "Market Research",
       "Customer Discovery",
     ],
-  },
-  {
-    title: "Trinity SMF - Software Sector Analyst",
-    link: "https://www.trinitysmf.com/",
-    description:
-      "Trinity Student Managed Fund is a student run investment fund with a real-life equity portfolio of €400k+ assets under management. As a software sector analyst, I attend weekly sector meetings where I learn about stocks, business valuation, risk, and investing. In a team of 3, we analysed and pitched Crowdstrike to the investment committee.",
-    skills: ["Investing", "Pitching Stocks", "Teamwork"],
-  },
-  {
-    title: "TES - Incubator Ambassador",
-    link: "https://testrinity.com/",
-    description:
-      "Trinity Entrepreneurial Society runs programmes and events that foster innovation and aids students on all stages of their entrepreneurial journey. As an incubator ambassador, I ran the Incubator Pitch Night, compiling promising startup pitch decks and announcing speakers.",
-    skills: ["Public Speaking"],
-  },
+  }
 ];
 
-export default EXPERIENCES;
+export default POWERED_BY;

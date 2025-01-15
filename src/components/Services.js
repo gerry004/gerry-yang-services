@@ -1,12 +1,12 @@
-import EXPERIENCES from "../content/experiences";
+import SERVICES from "../content/services";
 import Card from "./Card";
 
-function Experience() {
+function Services() {
   return (
-    <div className="bg-primary flex flex-col justify-center items-center py-16 md:py-18 px-5">
-      <h1 className="text-white py-4 md:py-12">Experience</h1>
-      <div className="md:grid md:grid-cols-2 md:gap-4 md:justify-between lg:max-w-[70%] md:max-w-[80%]">
-        {EXPERIENCES.map(
+    <div className="bg-primary flex flex-col justify-center items-center py-20 px-5">
+      <h1 className="text-white py-4 mb-2">Services</h1>
+      <div className="md:grid md:grid-cols-3 md:gap-4 md:justify-between lg:max-w-[70%] md:max-w-[80%]">
+        {SERVICES.map(
           ({ title, image, link, description, dates, points, skills }) => (
             <Card
               image={image}
@@ -25,4 +25,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Services;

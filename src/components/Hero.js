@@ -10,12 +10,10 @@ function Hero() {
         transition ease-in-out hover:shadow-2xl hover:-translate-y-4"
       />
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-primary">Website Designer and Developer</h1>
+        <h1 className="text-primary">Web Designer and Developer</h1>
         <p className="p-4">
-          I'm an MSISS student at Trinity College Dublin, Former Software
-          Engineer at Noloco (YCS21), Former Co-Founder of Kreoh, Naughton
-          Scholar, Patch 2021 Alumni, but really - I'm a self taught programmer
-          that loves figuring out new ideas and building cool stuff.
+          Creating modern, engaging websites that help musicians and music schools attract
+          students, showcase their programs, and thrive online.
         </p>
         <a
           href="https://calendly.com/gerryyang/30min"
