@@ -14,7 +14,7 @@ function Hero(props) {
       <img
         src={headshot}
         alt="Gerry Yang"
-        className="rounded-full border border-lightgray shadow-lightgray shadow-lg object-cover h-72 w-72 m-6 lg:h-80 lg:w-80 xl:h-96 xl:w-96 transform
+        className="rounded-full md:rounded-lg border border-lightgray shadow-lightgray shadow-lg object-cover h-72 w-72 m-6 lg:h-80 lg:w-80 xl:h-96 xl:w-96 transform
         transition ease-in-out hover:shadow-2xl hover:-translate-y-4"
       />
       <div className="flex flex-col justify-center items-center">

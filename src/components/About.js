@@ -3,11 +3,11 @@ import frankMaherSquare from "../assets/frank-maher-standing-square.jpg";
 
 function About() {
   return (
-    <div className="flex flex-col justify-center items-center py-8 px-2 lg:flex-row md:my-16 md:max-w-[70%] md:gap-6 lg:max-w-[50%] md:ml-auto md:mr-auto">
+    <div className="flex flex-col justify-center items-center text-center md:text-left py-8 px-2 lg:flex-row md:my-16 md:max-w-[70%] md:gap-6 lg:max-w-[50%] md:ml-auto md:mr-auto">
       <img
         src={frankMaher}
         alt="Gerry Yang"
-        className="hidden md:block rounded-full border border-lightgray shadow-lightgray shadow-lg object-cover h-72 w-72 m-6 lg:h-80 lg:w-80 xl:h-96 xl:w-96 transform transition ease-in-out hover:shadow-2xl hover:-translate-y-4"
+        className="hidden md:block rounded-lg border border-lightgray shadow-lightgray shadow-lg object-cover h-72 w-72 m-6 lg:h-80 lg:w-80 xl:h-96 xl:w-96 transform transition ease-in-out hover:shadow-2xl hover:-translate-y-4"
       />
       <img
         src={frankMaherSquare}
