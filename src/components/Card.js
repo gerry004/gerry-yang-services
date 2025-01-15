@@ -2,22 +2,25 @@ import { useState } from "react";
 
 const Card = ({
   image,
+  icon: Icon,
   title,
   dates,
   description,
   points = [],
   skills = [],
   link,
+  center = false,
   inverseColors = false,
 }) => {
   const [showMore, setShowMore] = useState(false);
   const backgroundColor = inverseColors ? "bg-white" : "bg-primary";
   const titleTextColor = inverseColors ? "text-primary" : "text-white";
   const textColor = inverseColors ? "text-gray" : "text-white";
+  const itemsCenter = center ? "flex flex-col items-center text-center" : "";
 
   return (
     <div
-      className={`${backgroundColor} p-6 my-6 rounded-md shadow-lightgray shadow-md hover:shadow-lightgray hover:shadow-lg hover:-translate-y-2 md:my-2`}
+      className={`${backgroundColor} ${itemsCenter} p-6 my-6 rounded-md shadow-lightgray shadow-md hover:shadow-lightgray hover:shadow-lg hover:-translate-y-2 md:my-2`}
     >
       {image && (
         <img
@@ -25,6 +28,9 @@ const Card = ({
           alt={title}
           className="border-2 border-black w-full rounded-md shadow-lightgray shadow-md"
         />
+      )}
+      {Icon && (
+        <Icon className="h-14 w-14 text-secondary"/>
       )}
       <a href={link} target="_blank" rel="noopener noreferrer">
         <h2 className={`${titleTextColor} hover:underline mt-4`}>{title}</h2>

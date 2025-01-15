@@ -13,7 +13,18 @@ module.exports = {
       white: '#FFFFFF',
       black: '#000000',
     },
-    extend: {},
+    extend: {
+      animation: {
+        'jump': 'jump 0.5s ease-in-out'
+      },
+      keyframes: {
+        jump: {
+          '0%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-7px)' }, // Moves up
+          '100%': { transform: 'translateY(0)' }, // Returns to original position
+        },
+      },
+    },
   },
   plugins: [],
 }

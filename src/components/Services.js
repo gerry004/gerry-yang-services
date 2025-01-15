@@ -7,15 +7,12 @@ function Services() {
       <h1 className="text-white py-4 mb-2">Services</h1>
       <div className="md:grid md:grid-cols-3 md:gap-4 md:justify-between lg:max-w-[70%] md:max-w-[80%]">
         {SERVICES.map(
-          ({ title, image, link, description, dates, points, skills }) => (
+          ({ title, icon, description }) => (
             <Card
-              image={image}
-              link={link}
               title={title}
-              dates={dates}
+              icon={icon}
               description={description}
-              points={points}
-              skills={skills}
+              center={true}
               inverseColors={true}
             />
           )

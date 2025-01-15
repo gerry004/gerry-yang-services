@@ -1,9 +1,9 @@
-import pianistHero from "../assets/gy-pianist-hero.png";
+import besharpPiano from "../assets/besharp-piano.png";
 
 const PROJECTS = [
   {
     title: "B# Piano Competition",
-    image: pianistHero,
+    image: besharpPiano,
     link: "https://besharppiano.ie/",
     description:
       "The B# Piano Competition aims to provide an opportunity for young pianists to showcase their skills, passion, and talent. For their website, I implemented the following functionalities:",

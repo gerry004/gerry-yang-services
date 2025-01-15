@@ -1,7 +1,7 @@
 import { useRef } from "react";
 
 function Navbar(props) {
-  const { projectsRef, servicesRef, aboutRef } = props;
+  const { projectsRef, servicesRef, aboutRef, contactRef } = props;
   const navbar = useRef();
 
   const goTo = (ref) => {
@@ -32,25 +32,22 @@ function Navbar(props) {
         </button>
         <button
           className="hover:underline underline-offset-2 font-medium"
+          onClick={() => goTo(servicesRef)}
+        >
+          Services
+        </button>
+        <button
+          className="hover:underline underline-offset-2 font-medium"
           onClick={() => goTo(projectsRef)}
         >
           Projects
         </button>
         <button
-          className="hover:underline underline-offset-2 font-medium"
-          onClick={() => goTo(servicesRef)}
+          className="bg-white text-primary font-bold py-3 px-5 rounded-lg hover:bg-opacity-80"
+          onClick={() => goTo(contactRef)}
         >
-          Services
+          Work With Me
         </button>
-        <a
-          href="https://calendly.com/gerryyang/30min"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="bg-white text-primary font-bold py-3 px-5 rounded-lg hover:bg-opacity-80">
-            Let's Chat!
-          </button>
-        </a>
       </div>
     </nav>
   );
