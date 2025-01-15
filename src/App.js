@@ -22,7 +22,7 @@ function App() {
         aboutRef={aboutRef}
         contactRef={contactRef}
       />
-      <Hero />
+      <Hero contactRef={contactRef}/>
       <section ref={servicesRef}>
         <Services />
       </section>

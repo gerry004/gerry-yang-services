@@ -1,6 +1,14 @@
 import headshot from "../assets/fw-headshot-1.JPG";
 
-function Hero() {
+function Hero(props) {
+  const { contactRef } = props;
+  const goTo = (ref) => {
+    window.scrollTo({
+      top: ref.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="flex flex-col justify-center items-center text-center py-8 px-2 min-h-[100vh] lg:flex-row md:mt-16 md:max-w-[70%] lg:max-w-[50%] md:ml-auto md:mr-auto md:min-h-[94vh]">
       <img
@@ -12,21 +20,16 @@ function Hero() {
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-primary">Web Designer and Developer</h1>
         <p className="p-4">
-          Creating modern, engaging websites that help musicians and music schools attract
-          students, showcase their programs, and thrive online.
+          Creating modern, engaging websites that help musicians and music
+          schools attract students, showcase their programs, and thrive online.
         </p>
-        <a
-          href="https://calendly.com/gerryyang/30min"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button
-            className="bg-primary text-white text-xl font-bold py-3 px-5 rounded-lg hover:bg-opacity-80 my-4
+        <button
+          className="bg-primary text-white text-xl font-bold py-3 px-5 rounded-lg hover:bg-opacity-80 my-4
         shadow-lightgray shadow-md hover:shadow-lightgray hover:shadow-lg hover:-translate-y-1"
-          >
-            Let's Chat!
-          </button>
-        </a>
+          onClick={() => goTo(contactRef)}
+        >
+          Work With Me
+        </button>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

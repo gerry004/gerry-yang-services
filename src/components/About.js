@@ -17,6 +17,9 @@ function About() {
       <div className="flex flex-col justify-center">
         <h1 className="text-primary p-4">I'm Gerry Yang</h1>
         <p className="p-4">
+          I create modern, engaging websites that help musicians and music schools attract students, showcase their programs, and thrive online.
+        </p>
+        <p className="p-4">
           As a{" "}
           <a
             className="text-primary font-bold underline-offset-4 underline hover:text-secondary hover:animate-jump inline-block"
