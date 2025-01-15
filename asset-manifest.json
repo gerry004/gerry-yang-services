@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gerry-yang-services/static/css/main.abd29cfb.css",
-    "main.js": "/gerry-yang-services/static/js/main.9a7fcec1.js",
+    "main.css": "/gerry-yang-services/static/css/main.478cb85a.css",
+    "main.js": "/gerry-yang-services/static/js/main.d0da14d3.js",
     "static/js/453.9e063e26.chunk.js": "/gerry-yang-services/static/js/453.9e063e26.chunk.js",
     "static/media/fw-headshot-1.JPG": "/gerry-yang-services/static/media/fw-headshot-1.9a583c23ee8caccfe218.JPG",
     "static/media/besharp-piano.png": "/gerry-yang-services/static/media/besharp-piano.29cdf0190bed8607288d.png",
@@ -12,12 +12,12 @@
     "static/media/frank-maher-standing-square.jpg": "/gerry-yang-services/static/media/frank-maher-standing-square.0906703b9efa88c6a93c.jpg",
     "static/media/javascript-logo.png": "/gerry-yang-services/static/media/javascript-logo.266bd9fb2663dcc057b4.png",
     "index.html": "/gerry-yang-services/index.html",
-    "main.abd29cfb.css.map": "/gerry-yang-services/static/css/main.abd29cfb.css.map",
-    "main.9a7fcec1.js.map": "/gerry-yang-services/static/js/main.9a7fcec1.js.map",
+    "main.478cb85a.css.map": "/gerry-yang-services/static/css/main.478cb85a.css.map",
+    "main.d0da14d3.js.map": "/gerry-yang-services/static/js/main.d0da14d3.js.map",
     "453.9e063e26.chunk.js.map": "/gerry-yang-services/static/js/453.9e063e26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd29cfb.css",
-    "static/js/main.9a7fcec1.js"
+    "static/css/main.478cb85a.css",
+    "static/js/main.d0da14d3.js"
   ]
 }
