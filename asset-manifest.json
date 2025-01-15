@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/gerry-yang-services/static/css/main.75ab3a3f.css",
-    "main.js": "/gerry-yang-services/static/js/main.ac55cf3d.js",
+    "main.css": "/gerry-yang-services/static/css/main.ba14bc73.css",
+    "main.js": "/gerry-yang-services/static/js/main.d911d87a.js",
     "static/js/787.180fbfdc.chunk.js": "/gerry-yang-services/static/js/787.180fbfdc.chunk.js",
     "static/media/fw-headshot-1.JPG": "/gerry-yang-services/static/media/fw-headshot-1.9a583c23ee8caccfe218.JPG",
     "static/media/gy-pianist-hero.png": "/gerry-yang-services/static/media/gy-pianist-hero.8a9fd8760697cf23517c.png",
-    "static/media/kreoh-insights.png": "/gerry-yang-services/static/media/kreoh-insights.4179d8b155a0cfd88cdc.png",
     "index.html": "/gerry-yang-services/index.html",
-    "main.75ab3a3f.css.map": "/gerry-yang-services/static/css/main.75ab3a3f.css.map",
-    "main.ac55cf3d.js.map": "/gerry-yang-services/static/js/main.ac55cf3d.js.map",
+    "main.ba14bc73.css.map": "/gerry-yang-services/static/css/main.ba14bc73.css.map",
+    "main.d911d87a.js.map": "/gerry-yang-services/static/js/main.d911d87a.js.map",
     "787.180fbfdc.chunk.js.map": "/gerry-yang-services/static/js/787.180fbfdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75ab3a3f.css",
-    "static/js/main.ac55cf3d.js"
+    "static/css/main.ba14bc73.css",
+    "static/js/main.d911d87a.js"
   ]
 }
