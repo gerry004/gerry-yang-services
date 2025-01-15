@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/gerry-yang-services/static/css/main.ba14bc73.css",
-    "main.js": "/gerry-yang-services/static/js/main.d911d87a.js",
-    "static/js/787.180fbfdc.chunk.js": "/gerry-yang-services/static/js/787.180fbfdc.chunk.js",
+    "main.css": "/gerry-yang-services/static/css/main.d360065e.css",
+    "main.js": "/gerry-yang-services/static/js/main.b6512101.js",
+    "static/js/453.9e063e26.chunk.js": "/gerry-yang-services/static/js/453.9e063e26.chunk.js",
     "static/media/fw-headshot-1.JPG": "/gerry-yang-services/static/media/fw-headshot-1.9a583c23ee8caccfe218.JPG",
-    "static/media/gy-pianist-hero.png": "/gerry-yang-services/static/media/gy-pianist-hero.8a9fd8760697cf23517c.png",
+    "static/media/besharp-piano.png": "/gerry-yang-services/static/media/besharp-piano.29cdf0190bed8607288d.png",
+    "static/media/frank-maher-standing.jpg": "/gerry-yang-services/static/media/frank-maher-standing.1a1971bcba635f878620.jpg",
+    "static/media/frank-maher-standing-square.jpg": "/gerry-yang-services/static/media/frank-maher-standing-square.0906703b9efa88c6a93c.jpg",
     "index.html": "/gerry-yang-services/index.html",
-    "main.ba14bc73.css.map": "/gerry-yang-services/static/css/main.ba14bc73.css.map",
-    "main.d911d87a.js.map": "/gerry-yang-services/static/js/main.d911d87a.js.map",
-    "787.180fbfdc.chunk.js.map": "/gerry-yang-services/static/js/787.180fbfdc.chunk.js.map"
+    "main.d360065e.css.map": "/gerry-yang-services/static/css/main.d360065e.css.map",
+    "main.b6512101.js.map": "/gerry-yang-services/static/js/main.b6512101.js.map",
+    "453.9e063e26.chunk.js.map": "/gerry-yang-services/static/js/453.9e063e26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba14bc73.css",
-    "static/js/main.d911d87a.js"
+    "static/css/main.d360065e.css",
+    "static/js/main.b6512101.js"
   ]
 }
