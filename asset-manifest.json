@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/gerry-yang-services/static/css/main.478cb85a.css",
-    "main.js": "/gerry-yang-services/static/js/main.b76f70aa.js",
-    "static/js/453.9e063e26.chunk.js": "/gerry-yang-services/static/js/453.9e063e26.chunk.js",
-    "static/media/fw-headshot-1.JPG": "/gerry-yang-services/static/media/fw-headshot-1.9a583c23ee8caccfe218.JPG",
-    "static/media/besharp-piano.png": "/gerry-yang-services/static/media/besharp-piano.29cdf0190bed8607288d.png",
-    "static/media/frank-maher-standing.jpg": "/gerry-yang-services/static/media/frank-maher-standing.1a1971bcba635f878620.jpg",
-    "static/media/canva-logo.png": "/gerry-yang-services/static/media/canva-logo.d8c3a47116877ec0e351.png",
-    "static/media/react-logo-1.png": "/gerry-yang-services/static/media/react-logo-1.ee618307265038b97d52.png",
-    "static/media/wordpress-logo-1.png": "/gerry-yang-services/static/media/wordpress-logo-1.a43eeaa3892482022145.png",
-    "static/media/frank-maher-standing-square.jpg": "/gerry-yang-services/static/media/frank-maher-standing-square.0906703b9efa88c6a93c.jpg",
-    "static/media/javascript-logo.png": "/gerry-yang-services/static/media/javascript-logo.266bd9fb2663dcc057b4.png",
-    "index.html": "/gerry-yang-services/index.html",
-    "main.478cb85a.css.map": "/gerry-yang-services/static/css/main.478cb85a.css.map",
-    "main.b76f70aa.js.map": "/gerry-yang-services/static/js/main.b76f70aa.js.map",
-    "453.9e063e26.chunk.js.map": "/gerry-yang-services/static/js/453.9e063e26.chunk.js.map"
+    "main.css": "/static/css/main.478cb85a.css",
+    "main.js": "/static/js/main.70b30379.js",
+    "static/js/453.9e063e26.chunk.js": "/static/js/453.9e063e26.chunk.js",
+    "static/media/fw-headshot-1.JPG": "/static/media/fw-headshot-1.9a583c23ee8caccfe218.JPG",
+    "static/media/besharp-piano.png": "/static/media/besharp-piano.29cdf0190bed8607288d.png",
+    "static/media/frank-maher-standing.jpg": "/static/media/frank-maher-standing.1a1971bcba635f878620.jpg",
+    "static/media/canva-logo.png": "/static/media/canva-logo.d8c3a47116877ec0e351.png",
+    "static/media/react-logo-1.png": "/static/media/react-logo-1.ee618307265038b97d52.png",
+    "static/media/wordpress-logo-1.png": "/static/media/wordpress-logo-1.a43eeaa3892482022145.png",
+    "static/media/frank-maher-standing-square.jpg": "/static/media/frank-maher-standing-square.0906703b9efa88c6a93c.jpg",
+    "static/media/javascript-logo.png": "/static/media/javascript-logo.266bd9fb2663dcc057b4.png",
+    "index.html": "/index.html",
+    "main.478cb85a.css.map": "/static/css/main.478cb85a.css.map",
+    "main.70b30379.js.map": "/static/js/main.70b30379.js.map",
+    "453.9e063e26.chunk.js.map": "/static/js/453.9e063e26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.478cb85a.css",
-    "static/js/main.b76f70aa.js"
+    "static/js/main.70b30379.js"
   ]
 }
